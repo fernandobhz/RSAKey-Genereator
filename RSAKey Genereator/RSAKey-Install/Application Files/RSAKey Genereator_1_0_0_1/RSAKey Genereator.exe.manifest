@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="RSAKey Genereator.exe" version="1.0.0.1" publicKeyToken="c9264b1a42ecdd3c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="1409449503_8794.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RSAKey Genereator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="RSAKey Genereator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RSAKey Genereator.exe" size="116224">
+      <assemblyIdentity name="RSAKey Genereator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>i5Y45SX3KjZwRZfy/xrxDKWs6cc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="1409449503_8794.ico" size="101758">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+9+tmJGxEKzY6NxcHMugZIThBAw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=VS2012-DESENV\Fernando" issuerKeyHash="94cb753897cd50dd0a5f6ed2d7e9ac9e8b62d5d8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>eXmB1iYuaTnoDULTfvG3eP2Bu1I=</DigestValue></Reference></SignedInfo><SignatureValue>B4g416s6xeCw75yrC4lUxwd5oFvrwANVBttrqA5qT5d9CttuqZorZxDIL7nA9/9ebN9w95GcLtuGKiD6ySDbfIzbYKQUxdtlBEqbJgq2w+XF7rApJ36cG/UTyn7ZZTwu88PpOq5nlxXhHKGJic5B5NHtWUx9iNXivkAl1itSMTQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nTKgt11YCk7wtr7iTu28j54XfEEP644mUkI4cfVtJmRGh2U7oL/KUYx6tT+q/wdhTV/WCL1Oi8U3o0s/HInwldpBmoevPjY07/MfH3xSBbAmVH46fZwpGUysI/qdREYTbcUX7qsFYVC6FotDWRBQ+iJF8jlCEZkPO9uCe4NmueM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="52bb81fd78b7f17ed3420de839692e26d6817979" Description="" Url=""><as:assemblyIdentity name="RSAKey Genereator.exe" version="1.0.0.1" publicKeyToken="c9264b1a42ecdd3c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=VS2012-DESENV\Fernando</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>eITssv02OMr9SEdGr5hGN8znZH8=</DigestValue></Reference></SignedInfo><SignatureValue>R0DVLN8Ps8/3c4dJeHs3BOv7wB80gmVMAz6VQtDtZH8vs4u7heCrnACg44MlsNrFTqi4d6JRUsHYLDOke7ltorZlfDlMlxdY/ALewuy0TkL/unpIYddfsu6gsPYIWm4GExUy1pi9gKeVdrRAJloYE8ZTvMMYoopEpAacTVxDIco=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nTKgt11YCk7wtr7iTu28j54XfEEP644mUkI4cfVtJmRGh2U7oL/KUYx6tT+q/wdhTV/WCL1Oi8U3o0s/HInwldpBmoevPjY07/MfH3xSBbAmVH46fZwpGUysI/qdREYTbcUX7qsFYVC6FotDWRBQ+iJF8jlCEZkPO9uCe4NmueM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQEKWughOgQpNDiF0w7H6nKTANBgkqhkiG9w0BAQUFADA3MTUwMwYDVQQDHiwAVgBTADIAMAAxADIALQBEAEUAUwBFAE4AVgBcAEYAZQByAG4AYQBuAGQAbzAeFw0xNDA4MzAyMDQ1NTNaFw0xNTA4MzEwMjQ1NTNaMDcxNTAzBgNVBAMeLABWAFMAMgAwADEAMgAtAEQARQBTAEUATgBWAFwARgBlAHIAbgBhAG4AZABvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCdMqC3XVgKTvC2vuJO7byPnhd8QQ/rjiZSQjhx9W0mZEaHZTugv8pRjHq1P6r/B2FNX9YIvU6LxTejSz8cifCV2kGah68+NjTv8x8ffFIFsCZUfjp9nCkZTKwj+p1ERhNtxRfuqwVhULoWi0NZEFD6IkXyOUIRmQ8724J7g2a54wIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAGID6hx3QxFtRVD5PgMtQccQLmPmQsfD0EmAufYxLSPCTjMW4qDoCqPtauqHe28uzR3pTPpmSKKAL+XVYSJdceV1oyEXX9DmSfeJBQVUBVxx9N69dnfIc77QAekm16PISuVFE+0tVQQuVC5tdyPHp4G7lWpJAn9uYxi0OwnPMVdc</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
